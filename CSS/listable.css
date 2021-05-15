@@ -1,0 +1,22 @@
+
+
+.ListItem{
+
+	display: block;
+	 margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+	width: 60%; 
+	padding: 20px;
+text-align: center;
+border-color: silver;
+border-style: outset;
+
+}
+
+.FeaturedItem{
+	border-color: gold;
+	border-style: outset;
+
+
+}

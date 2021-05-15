@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="CSS/mainStyle.css">
+  <style type="text/css">
+
+    .websiteTrailer{ 
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      width: 100%;
+      background-color: black;
+
+    }
+    .homeText{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 50%; 
+      text-align: center;
+    }
+
+    .homeContainer{
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-bottom: 80px;
+      margin-top: 50px;
+      background-color: red;
+    }
+
+    .homeSliderRight{
+      height: 200px;
+      width: 100%; 
+      border-bottom: solid black;
+    }
+
+    .homeSliderLeft{
+      height: 200px;
+      width: 100%;
+      border-bottom: solid black;
+    }
+
+    .parallelogramMirror{
+      width: 53.2%;
+      height: 200px;
+      transform: translate(36px, 0px) skew(-20deg);
+      background: #555;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: width 3s;  float: right;
+
+    }
+    .parallelogram {
+      width: 53.2%;
+      height: 200px;
+      transform:translate(-36px, 0px) skew(20deg);
+
+      background: #555;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: width 3s;
+      float: left;
+
+    }
+
+    .parallelogram:hover{
+      width:70%;
+    }
+
+    .parallelogramMirror:hover{
+      width:70%;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="banner">
+    <a href="Home.html">
+      <img draggable="false" class="bannerImage" src="images/SEPPLOGOT.png" alt="Scribal Entertainment banner">
+    </a>
+  </div>
+
+  <ul class="Navbar">
+    <li class="NavbarItem"><a href="Home.html">Home</a></li>
+    <li class="NavbarItem"><a href="Projects.html">Projects</a></li>
+    <li class="NavbarItem"><a href="Story&Lore.html">Storytellers Saga</a></li>
+    <li class="NavbarItem"><a href="Educational.html">Educational</a></li>
+    <li class="NavbarItem"><a href="News.html">News</a></li>
+    <li class="NavbarItem"><a href="BehindTheScenes.html">About us</a></li>
+  </ul>
+
+  <video class="websiteTrailer" width= "800" height="600" autoplay muted loop>
+    <source src="videos/snakeOn8.mp4" type="video/mp4">
+    </video>
+
+    <div class="introText">
+      <h2>Welcome to the website of Scribal Entertainment</h2>
+      <p> 
+        This website is the collective work of two individuals, two writers with shared dreams and passions. On this website you can find out about the work both of them do and have made over the years. <br>
+        On this website you can find the old projects of our coding expert and within the Storyteller sagas page you can find the collective writing of the two of us. <br>
+        In our about us you can find contact details and a some info about our work and skills.<br>
+        In the news tab you can find any news we share with the world. We hope you enjoy seeing what have have made and will look forward to what we deliver in the future.
+      </p>
+    </div>
+
+    <div class= "featureArticle"> 
+      <div class="articleTitle"> 
+        <p><strong>Latest project</strong></p>
+      </div> 
+      <div class="thumbnail"> 
+        <a href="amusement.php"><img src="images/testperson.png" alt="arena" width="150" height="113"></a> 
+      </div> 
+      <div>text of description<br><a href="Projects.html">Read more</a></div> 
+    </div> 
+
+    <div class= "featureArticle"> 
+      <div class="articleTitle"> 
+        <p><strong>Latest article</strong></p>
+      </div> 
+      <div class="thumbnail"> 
+        <a href="amusement.php"><img src="images/SEPPLOGOT.png" alt="arena" width="150" height="113"></a> 
+      </div> 
+      <div>text of description<br><a href="Projects.html">Read more</a></div> 
+    </div> 
+
+    <div class= "featureArticle"> 
+      <div class="articleTitle"> 
+        <p><strong>Latest news</strong></p>
+      </div> 
+      <div class="thumbnail"> 
+        <a href="amusement.php"><img src="images/testperson.png" alt="arena" width="150" height="113"></a> 
+      </div> 
+      <div>text of description<br><a href="Projects.html">Read more</a></div> 
+    </div> 
+
+    <div class="homeContainer">
+      <a href="Projects.html">
+        <div class="homeSliderRight" style="background-image: url(images/skyrim.jpg); ">
+          <div class="parallelogram"><h1>Projects</h1></div>
+        </div>
+      </a>
+      <a href="Story&Lore.html">
+        <div class="homeSliderLeft">
+          <div class="parallelogramMirror"><h1>Storytellers saga</h1></div>
+        </div>
+      </a>
+      <a href="Educational.html">
+        <div class="homeSliderRight">
+          <div class="parallelogram"><h1>Educational</h1></div>
+        </div>
+      </a>
+      <a href="News.html">
+        <div class="homeSliderLeft">
+          <div class="parallelogramMirror"><h1>News</h1></div>
+        </div>
+      </a>
+    </div>
+
+
+
+    <div class="homeText">
+      <h2>Our goal</h2>
+      <p> 
+        Entertainment and sharing with the world is an important part of why we started our team, but it isnt the main reason. In reality the two of us are just two people who have a similar goal, to create something beautiful that will be remembered for years too come. A dream we wish to share with the world, our way to give back to the world we get to enjoy and the people we meet on our journies.
+      </p>
+    </div>
+
+    <br>
+
+    <div class="homeText">
+      <h2>Our team</h2>
+      <p> 
+        As of right now we are a team of two, both writers and one of them a programmer. We are as of now not a company and work on this as a pet-project but mabye one day this will turn out to be our future work, only the future will tell. Our team works on projects every week and always look for new and interesting ways to bring our stories to life.
+      </p>
+    </div>
+
+    <br>
+    <footer>
+
+      <a href="BehindTheScenes.html">contact</a>
+      <p>For our collective social media see:<br>
+        <a href="BehindTheScenes.html">Facebook</a><br>
+        <a href="BehindTheScenes.html">Twitter</a><br>
+        <a href="BehindTheScenes.html">Whatever is hip and new</a><br></p>
+      </footer>
+
+    </body>
+    </html>

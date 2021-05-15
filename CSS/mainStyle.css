@@ -1,0 +1,112 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+}
+
+.banner{
+	background-color: grey;
+}
+
+.bannerImage{	
+	display: block;
+	 margin-left: auto;
+  margin-right: auto;
+	width: 20%; 
+
+}
+
+
+.Navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #002E88;
+}
+
+
+.NavbarItem {
+	float: left;
+}
+
+.NavbarItem a {
+	display: block;
+	color: gold;
+	font-size: 20px;
+	text-align: center;
+	padding: 14px 32px;
+	text-decoration: none;
+}
+
+.NavbarItem a:hover {
+	background-color: #880072;
+
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+
+h2{
+	text-align: center;
+	padding: 20px;
+}
+
+h3{
+	text-align: center;
+}
+
+
+.introText{
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+.featureArticle{
+
+	margin: 20px 200px 20px 200px;
+	background-color: pink;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	height: 145px;
+	padding-right: 20px;
+	border: 10px solid;
+	border-color:transparent;
+	min-height: 140px;
+	height:auto;
+
+}
+
+
+.articleTitle{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.thumbnail{
+	float:left;
+	margin-right: 5px;
+	max-width: 180px;
+	max-height: 240px;
+}
+
+
+
+
+footer{
+	text-align: center;
+	background-color: #929292;
+	color: #FFFFFF;
+	padding: 20px;
+	margin-top: 50px;
+}
+
