@@ -9,9 +9,10 @@
 	width: 60%; 
 	padding: 20px;
 text-align: center;
-border-color: silver;
+border-color: #006633;
 border-style: outset;
-
+background-color: #BEBEBE;
+box-shadow: 10px 10px 5px grey;
 }
 
 .FeaturedItem{

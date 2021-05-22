@@ -6,14 +6,17 @@
   <link rel="stylesheet" href="CSS/mainStyle.css">
 
   <style type="text/css">
-    .codex{
-      background-color: yellow; 
+    .codex{ 
       width: 25%;
            float: left;
     }
 
     .codexText{
       margin: 20px;
+      font-size: 20px;
+      border-right-style: solid;
+      border-right-color: black;
+      padding: 5px;
     }
 
     .codexImage{
@@ -39,7 +42,7 @@
   <ul class="Navbar">
     <li class="NavbarItem"><a href="Home.html">Home</a></li>
     <li class="NavbarItem"><a href="Projects.html">Projects</a></li>
-    <li class="NavbarItem"><a href="Story&Lore.html">Storytellers Saga</a></li>
+    <li class="currentNavbarItem NavbarItem"><a href="Story&Lore.html">Storytellers Saga</a></li>
     <li class="NavbarItem"><a href="Educational.html">Educational</a></li>
     <li class="NavbarItem"><a href="News.html">News</a></li>
     <li class="NavbarItem"><a href="BehindTheScenes.html">About us</a></li>
@@ -58,9 +61,9 @@
 
   <ul style="list-style-type: none;  margin: 0; padding: 0; overflow: hidden;">
     <li>
-      <div class="CharactersCodex, codex">
+      <div class="codex">
         <h2>Characters</h2>
-        <a href="">
+        <a href="Story&Lore/charCodex.html">
           <img draggable="false" src="images/charcodex.png" class="codexImage">
         </a>
         <p class="codexText">The characters in the storytellers saga can be read about in this book.<br> 
@@ -71,18 +74,18 @@
     <li>
       <div class="codex">
         <h2>World</h2>
-        <a href="">
+        <a href="Story&Lore/worldCodex.html">
           <img draggable="false" src="images/npccodex.png" class="codexImage">
         </a>
-        <p class="codexText">The characters in the storytellers saga can be read about in this book.<br> 
-        You can read about their backstory and who and what they are.</p>
+        <p class="codexText">The worlds in the storytellers saga can be discovered in this book.<br> 
+        You can read about their history, culture and many more topics.</p>
       </div>
     </li>
 
     <li>
       <div class="codex">
         <h2>Lore</h2>
-        <a href="">
+        <a href="Story&Lore/loreCodex.html">
           <img draggable="false" src="images/Enemcodex.png" class="codexImage">
         </a>
         <p class="codexText">The characters in the storytellers saga can be read about in this book.<br> 
@@ -91,12 +94,12 @@
     </li>
 
     <li>
-      <div class="OthersCodex, codex">
+      <div class="codex">
         <h2>Others</h2>
-        <a href="">
+        <a href="Story&Lore/otherCodex.html">
           <img draggable="false" src="images/itemcodex.png" class="codexImage">
         </a>
-        <p class="codexText">The characters in the storytellers saga can be read about in this book.<br> 
+        <p class="codexText" style="border-right-style: none;">The characters in the storytellers saga can be read about in this book.<br> 
         You can read about their backstory and who and what they are.</p>
       </div>
     </li>
@@ -104,14 +107,14 @@
 
 
   <br>
-
   <footer>
 
-    <a href="BehindTheScenes.html">contact</a>
+    <a href="BehindTheScenes.html#C1">contact</a><br><br>
     <p>For our collective social media see:<br>
-      <a href="BehindTheScenes.html">Facebook</a><br>
-      <a href="BehindTheScenes.html">Twitter</a><br>
-      <a href="BehindTheScenes.html">Whatever is hip and new</a><br></p>
+      <a href="BehindTheScenes.html"><img src="images/facebook.png"></a>
+      <a href="BehindTheScenes.html"><img src="images/twitter.png"></a><br>
+      <br>
+      <p>&copy 2021</p>
     </footer>
 
   </body>

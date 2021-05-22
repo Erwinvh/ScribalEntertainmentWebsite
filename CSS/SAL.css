@@ -1,0 +1,43 @@
+.Top{
+  max-height: 600px;
+}
+
+.Top p{
+  padding: 10px;
+}
+
+.firstPic{
+  border-color: black;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  margin-left: 0px;
+  max-width: 100%;
+  max-height: 
+}
+
+.Core{
+}
+
+.Core p{
+  padding: 10px;
+}
+
+.shadowBox{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+   box-shadow: 10px 10px 5px grey;
+     border-color: black;
+  border-style: solid;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 25%;
+}

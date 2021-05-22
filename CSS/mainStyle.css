@@ -5,7 +5,7 @@
 }
 
 body{
-
+background-color: #e6dfd5;
 }
 
 .banner{
@@ -48,6 +48,30 @@ body{
 
 }
 
+.currentNavbarItem{
+	pointer-events: none;
+   cursor: default;
+   background-color: #880072;
+}
+
+ul.breadcrumb {
+  padding: 8px 16px;
+  padding-left: 30px;
+  list-style: none;
+  background-color: grey;
+}
+
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {color: gold;}
+
+
 h1{
 	text-align: center;
 	padding: 20px;
@@ -68,6 +92,7 @@ h3{
 	text-align: center;
 	margin: 20px;
 	margin-bottom: 50px;
+	font-size: 18px;
 }
 
 .featureArticle{
@@ -82,7 +107,7 @@ h3{
 	border-color:transparent;
 	min-height: 140px;
 	height:auto;
-
+    box-shadow: 10px 10px 5px grey;
 }
 
 
@@ -108,5 +133,9 @@ footer{
 	color: #FFFFFF;
 	padding: 20px;
 	margin-top: 50px;
+}
+
+footer img{
+	width: 60px;
 }
 
